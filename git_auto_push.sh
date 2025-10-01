@@ -56,6 +56,11 @@ else
     exit 1
 fi
 
+# 设置git提交账号密码
+# git config --global credential.helper store
+# 然后用git push -u origin main手动提交一次之后，就没有账号密码要求了
+
+
 # 编辑cron任务
 # crontab -e
 
